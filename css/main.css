@@ -1,0 +1,42 @@
+body {
+    text-align: center;
+
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+div {
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.board {
+    left: 50px;
+    font-size: 30;
+    text-align: center;
+}
+
+.board td {
+    background-color: rgba(127, 255, 212, 0.87);
+}
+
+.board td:hover {
+    background-color: rgba(135, 206, 250, 0.779);
+}
+
+.locked {
+    background-color: rgba(0, 0, 0, 0.391) !important;
+    color: white;
+}
+
+button {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: none;
+    width: 80px;
+    height: 30px;
+    color: white;
+    background-color: rgba(101, 210, 74, 0.775);
+}
